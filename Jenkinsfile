@@ -9,7 +9,7 @@ pipeline {
             // Declaração de passo a passo estagio
             steps{
                 script {
-                    dockerapp = docker.build("renanbrickes/kube-news:${env.BUILD.ID}", '-f ./src/Dockerfile ./src')
+                    dockerapp = docker.build("renanbrickes/kube-news:${env.BUILD_ID}", '-f ./src/Dockerfile ./src')
                 }
             }
         }
