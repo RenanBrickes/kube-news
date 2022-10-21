@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: renanbrickes/kube-news:v1
+          image: renanbrickes/kube-news:{{TAG}}
           ports:
             - containerPort: 8080
           env:
