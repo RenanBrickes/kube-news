@@ -1,5 +1,4 @@
-pipiline {
-
+pipeline {
     // Quem vai execultar a aplicação
     agent any
 
